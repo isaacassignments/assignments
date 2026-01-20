@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>Rusty</title>
+</head>
+
+<body>
+    <h1>Rusty Steele</h1>
+    <h3>Hi, I'm Rusty the dog!!</h3>
+    <h4>What's my favorite sport?</h4>
+
+<form action="/submit_form" method="post">
+
+    <div>
+        <label>
+            <input type="checkbox" name="sport" value="soccer"> Soccer
+        </label>
+    </div>
+
+    <div>
+        <label>
+            <input type="checkbox" name="sport" value="basketball"> Basketball
+        </label>
+    </div>
+
+    <div>
+        <label>
+            <input type="checkbox" name="sport" value="baseball"> Baseball
+        </label>
+    </div>
+
+    <div>
+        <label>
+            <input type="checkbox" name="sport" value="football"> Football
+        </label>
+</div>
+        <div>
+            <input type="checkbox" name="subscribe" value="yes"> Subscribe to newsletter
+        </div>
+
+    <div>
+        <input type="submit" value="Submit">
+</form>
+
+<h6>
+    You can follow me on 
+    <a href="https://www.linkedin.com/school/georgia-southern-university">
+        LinkedIn
+</a>
+
+<ol>
+    <li>
+        <a href="https://www.bing.com/ck/a?!&&p=fb108a4747002f97176c6f5617b7f071c63bfeafc8e30fefb12570c7d0ee2d42JmltdHM9MTc2ODg2NzIwMA&ptn=3&ver=2&hsh=4&fclid=3025f67e-dee0-68de-38f4-e09cdfb66928&psq=georgia+southen+instagram&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9nZW9yZ2lhc291dGhlcm51bml2ZXJzaXR5Lw/">
+            Instagram</a>
+        </li>
+    <li>
+        <a href="https://www.snapchat.com/">
+            Snapchat</a>
+        </li>
+    <li>
+        <a href="https://www.bing.com/ck/a?!&&p=3d55fa23b359cfb7717512c6bde4786c225904310603d0ba3ec74643f4c2abe1JmltdHM9MTc2ODg2NzIwMA&ptn=3&ver=2&hsh=4&fclid=3025f67e-dee0-68de-38f4-e09cdfb66928&psq=georgia+southen+faceook&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0dlb3JnaWFTb3V0aGVybi8">
+            Facebook</a>
+    </li>
+</ol>
+
+</body>
+
+</html>
