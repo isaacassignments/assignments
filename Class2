@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Registration</title>
+</head>
+
+<body>
+
+    <h3>Registration Form</h3>
+
+    <form action="Done.html" method="get">
+        <div>
+            <label for="firstname"> First Name:</label>
+            <br>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter your first name">
+        </div>
+<br>
+        <div>
+            <label for="lastname"> Last Name:</label>
+            <br>
+            <input type="text" id="lastname" name="lastname" placeholder="Enter your last name">
+        </div>
+
+<br>
+        <div>
+            <fieldset>
+                <legend> Gender</legend> 
+                <input type="radio" id="Male" name="gender" value="Male">
+                <label for="Male">Male</label>
+                <br>
+                <input type="radio" id="Female" name="gender" value="Female">
+                <label for="Female">Female</label>
+                <br>
+                <input type="radio" id="Other" name="gender" value="Other">
+                <label for="Other">Other</label>
+
+            </fieldset>
+        </div>
+<br>
+        <div>
+            <label for="email"> Email address:</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="Ex. abc@gmail.com">
+        </div>
+<br>
+        <div>
+            <label for="password"> Password:</label>
+            <br>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+        </div>
+<br>
+        <div>
+            <label for="confirmpassword"> Confirm Password:</label>
+            <br>
+            <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm your password">
+        </div>
+
+<br>
+
+<label for="birthday"> Birthday:</label>
+<br>
+<input type="date" id="birthday" name="birthday">
+
+
+        <br> 
+        <div>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the terms and conditions</label>
+        </div>
+<br>
+        <div>
+            <input type="submit" value="Register">
+        </div>
+        
+    </form>
+</body>
+
+</html>
